@@ -34,6 +34,14 @@ function PageTransitions(){
             element.classList.add('active');
         }
     })
+
+    //Toogle theme
+    const themBtn = document.querySelector('.theme-btn');
+    themBtn.addEventListener('click', () => {
+        let element = document.body;
+        element.classList.toggle('light-mode');
+
+    })
 }
 
 PageTransitions();
