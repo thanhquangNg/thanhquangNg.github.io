@@ -710,7 +710,7 @@ section {
     margin: 0 auto;
     width: 90%;
   }
-  .controls {
+  .controlls {
     top: auto;
     bottom: 0;
     flex-direction: row;
@@ -720,7 +720,7 @@ section {
     width: 100%;
     background-color: var(--color-grey-5);
   }
-  .controls .control {
+  .controlls .control {
     margin: 1rem 0.3rem;
   }
   .about-container {
