@@ -890,7 +890,7 @@ section {
 }
 @media screen and (max-width: 700px) {
   .container {
-    padding: 7rem 3rem;
+    padding: 1rem 1rem;
   }
   .about-stats .progress-bars {
     grid-template-columns: repeat(1, 1fr);
@@ -927,15 +927,7 @@ section {
     text-align: left;
   }
 }
-@media screen and (max-width: 414px) {
-  section {
-    padding: 2rem 1rem;
-  }
-  .contact-content-con {
-    text-align: left;
-  }
-}
-@media screen and (max-width: 412px) {
+@media screen and (min-width: 393px) {
   section {
     padding: 2rem 1rem;
   }
